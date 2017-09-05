@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import App from './app'
 
 export default class FlatListOfTextInput extends Component {
   render() {
@@ -50,4 +51,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('FlatListOfTextInput', () => FlatListOfTextInput);
+AppRegistry.registerComponent('FlatListOfTextInput', () => App);
