@@ -13,10 +13,6 @@ import {
 } from 'react-native';
 import KeyboardManager from 'react-native-keyboard-manager'
 
-KeyboardManager.setEnable(true);
-
-KeyboardManager.setEnableDebugging(true)
-KeyboardManager.setEnableAutoToolbar(true);
 KeyboardManager.setToolbarPreviousNextButtonEnable(true)
 
 import App from './app'
